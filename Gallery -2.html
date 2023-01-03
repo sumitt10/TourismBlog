@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+ <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+<title>Gallery</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="Images/icon-1.jpg" width="150px" style="margin-left: -1200px;">
+  <h1 style="font-family: font-family: Sofia, sans-serif ;margin-top: -60px;margin-left: -830px ;"><b>Photo Gallery</b></h1>
+  
+</div>
+
+<div class="row"> 
+  <div class="column" style="width: 550px;">
+    <img src="Images/Tour-8.3.png" style="width:100%">
+    <img src="Images/Tour-6.3.jpg" style="width:100%">
+    <img src="Images/Tour-6.1.png" style="width:100%">
+    <img src="Images/Tour-6.2.png" style="width:100%">
+    <img src="Images/Tour-8.4.png" style="width:100%">
+    <img src="Images/Tour-15.jpg" style="width:100%">
+    <img src="Images/Tour-22.jpg" style="width:100%">
+  </div>
+  <div class="column" style="width: 400px;">
+    <img src="Images/s-1.jpg" style="width:100%">
+    <img src="Images/g-2.jpg" style="width:100%">
+    <img src="Images/g-3.jpeg" style="width:100%">
+    <img src="Images/s-7.jpg" style="width:100%">
+    <img src="Images/g-5.jpg" style="width:100%">
+    <img src="Images/s-8.jpg" style="width:100%">
+    <img src="Images/s-3.jpg" style="width:100%">
+  </div>  
+  <div class="column" style="width: 350px;">
+    <img src="Images/s-2.jpg" style="width:100%">
+    <img src="Images/s-3.jpg" style="width:100%">
+    <img src="Images/s-6.jpg" style="width:100%">
+    <img src="Images/Tour-22.jpg" style="width:100%">
+    <img src="Images/s-10.jpg" style="width:100%">
+    <img src="Images/g-6.jpg" style="width:100%">
+    <img src="Images/s-13.jpg" style="width:100%">
+  </div>
+  <div class="column" style="width: 250px;">
+    <img src="Images/Tour-18.jpg" style="width:100%">
+    <img src="Images/Tour-17.jpg" style="width:100%">
+    <img src="Images/s-5.jpg" style="width:100%">
+    <img src="Images/Tour-20.jpg" style="width:100%">
+    <img src="Images/s-11.jpg" style="width:100%">
+    <img src="Images/s-12.jpg" style="width:100%">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+</body>
+</html>
